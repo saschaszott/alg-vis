@@ -5,10 +5,6 @@
 *~
 bin/
 src/out
-*.pdf
-*.png
-*.pyc
-*.xml
 !algvis-format.xml
 !algvis-profile.xml
 *.iml
