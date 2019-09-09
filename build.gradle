@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'algvis.ui.AlgVisStandalone'
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    baseName = 'alg-vis'
+    version =  '1.0'
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
